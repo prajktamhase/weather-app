@@ -39,6 +39,7 @@ background-size: cover;
 }
 .flex{
     display:flex;
+    flex-wrap: wrap;
     justify-content:space-evenly;
 
 }
@@ -51,6 +52,7 @@ background-size: cover;
     width: 250px;
     box-shadow: 2px 3px 3px 3px rgb(119, 185, 231);
     margin: 60px;
+    
    
    
 
@@ -72,4 +74,38 @@ background-size: cover;
 .img{
     height: 90px;
  margin:auto auto; 
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+    .caption {
+        font-size: 16px;
+        left: 22px;
+        position: relative;
+    }
+    .box {
+        border-radius: 30px;
+        box-shadow: 2px 3px 3px 3px #77b9e7;
+        font-size: 20px;
+        left: 23px;
+        position: relative;
+    }
+    .city {
+        font-size: 27px;
+        margin-top: 50px;
+        margin-left: -550px;
+    }
+    .flex{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    
+    }
+
+   
 }
