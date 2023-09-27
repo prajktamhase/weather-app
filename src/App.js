@@ -75,11 +75,6 @@ export default function App() {
         </div>
 
         <div className='visibility'>
-          <p className='center'>Main <br />
-            <img src={rain} className='img' /><br /> {weatherData?.weather?.main} </p>
-        </div>
-
-        <div className='visibility'>
           <p className='center'>clouds <br />
             <img src={cloud} className='img' /><br /> {weatherData?.clouds?.all} </p>
         </div>
